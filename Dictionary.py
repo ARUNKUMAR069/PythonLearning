@@ -39,3 +39,7 @@ tea_shop={
     "chai":{"Masala":"Spicy","Ginger":"Zesty"},
     "tea":{"Green":"Mild","Black":"Strong"}
 }
+# New syntax
+keys=["masala","ginger","lemon"]
+default_value="Delicious"
+new_dict=dict.fromkeys(keys,keys )
